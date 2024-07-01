@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: DELL
+Build-Jdk: 17.0.3
+Class-Path: ejbs-0.0.1-SNAPSHOT.jar primary-source-0.0.1-SNAPSHOT.jar lo
+ gging-0.0.1-SNAPSHOT.jar
+Created-By: Maven Integration for Eclipse
+

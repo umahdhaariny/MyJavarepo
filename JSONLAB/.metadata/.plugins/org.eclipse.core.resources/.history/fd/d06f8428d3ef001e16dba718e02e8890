@@ -1,0 +1,19 @@
+package Myjsonlearning.Myjson;
+
+import java.io.File;
+import java.io.IOException;
+
+import com.fasterxml.jackson.core.exc.StreamReadException;
+import com.fasterxml.jackson.databind.DatabindException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import Myjsonlearning.Myjson.Entity.CAr;
+
+public class Readjson {
+
+	public static void main(String args[]) throws StreamReadException, DatabindException, IOException {
+		ObjectMapper obj1 = new ObjectMapper();
+		CAr car = obj1.readValue(new URL("file:\\dsa java\\JSONLAB\\Myjson\\target\\car1.json"), CAr.class);
+		System.out.println("vallue of car "+" color is" + car.getColor() + " type is"+car.getType());
+	}
+}

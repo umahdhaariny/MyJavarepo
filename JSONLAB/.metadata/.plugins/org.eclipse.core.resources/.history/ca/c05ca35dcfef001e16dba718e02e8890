@@ -1,0 +1,24 @@
+package Myjsonlearning.Myjson;
+import java.io.File;
+
+import com.fasterxml.jackson.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import Myjsonlearning.Myjson.Entity.CAr;
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    
+    {
+    	ObjectMapper obj1 = new ObjectMapper();
+    	CAr car1 = new CAr("yellow","maruthi");
+    	
+    	
+        System.out.println( "Hello World!" );
+    }
+}
